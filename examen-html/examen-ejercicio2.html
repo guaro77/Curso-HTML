@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio2</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Mis Datos</legend>
+            <br>
+                 <ol>
+                     <li>Nombre:
+                        <input type="text" placeholder="Escriba aqui su nombre">
+                     </li>
+                     <li>Correo Electronico:
+                        <input type="email" placeholder="ejemplo@dominio.com">
+                     </li>
+                     <li>telefono:
+                        <input type="number" placeholder="ej.+5698767890">
+                     </li>
+                 </ol>
+        </fieldset>
+        <fieldset>
+            <legend>Direccion</legend>
+            <br>
+                 <ol>
+                     <li>Direccion:
+                         <textarea name="direccion" id="direccion" cols="30" rows="10"></textarea>
+                     </li>
+                     <li>Codigo Postal:
+                         <input type="text" placeholder="Codigo Postal">
+                     </li>
+                     <li>Ciudad:
+                         <input type="text" placeholder="Ciudad">
+                     </li>
+                 </ol>
+        </fieldset>
+        <fieldset>
+            <legend>Forma de Pago</legend>
+            <br>
+                 <ol>
+                    <li>
+                        <fieldset>
+                            <legend>tarjetas de credito</legend>
+                            <br>
+                            <ul type="circle"> 
+                                <li>
+                                    <label>
+                                        <input type="radio" name="gender" value="visa">
+                                        VISA
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="gender" value="American Express">
+                                        American Express
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="gender" value="master card">
+                                        Master card
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </li>
+                    <li>Numero de tarjeta
+                        <input type="number" placeholder="Numero tarjeta">
+                    </li>
+                    <li>Código de Seguridad 
+                        <input type="number" placeholder="Código de seguridad">
+                    </li>
+                    <li>Nombre Tarjeta 
+                        <input type="text" placeholder="Nombre exacto tarjeta">
+                    </li>
+
+                </ol>
+        </fieldset>
+    </form>
+</body>
+</html>

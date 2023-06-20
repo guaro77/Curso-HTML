@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>ejercicio 1</title>
+</head>
+<body>
+    <h1>Pedido de Pizza</h1>
+    <form>
+        <fieldset>
+            <legend>La pizza</legend>
+            <br>
+            <div>
+                <label>Ingredientes</label>
+            </div>
+            <br>
+            <div>
+                <label>
+                    <input type="checkbox" name="languages" value="Queso">
+                    Queso                  
+                </label><br>
+                <label>
+                    <input type="checkbox" name="languages" value="pimiento">
+                    Pimiento                  
+                </label><br>
+                <label>
+                    <input type="checkbox" name="languages" value="cebolla">
+                    Cebolla                  
+                </label>
+            </div>
+            <br>
+            <div>
+                <label>Tamaño</label>
+            </div>
+            <br>
+                <label>
+                <input type="radio" name="gender" value="pequeña">
+                Pequeña                  
+            </label><br>
+            <label>
+                <input type="radio" name="gender" value="Mediana">
+                Mediana                  
+            </label><br>
+            <label>
+                <input type="radio" name="gender" value="grande">
+                Grande                  
+            </label><br>
+                   
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Datos de entrega</legend>
+        
+            <label>Nombre</label>
+                <input type="text" placeholder="escriba su nombre"><br>
+                <label>Direccion</label>
+                <input type="text" placeholder="escriba su direccion"><br>
+                <label>Telefono</label>
+                <input type="number" placeholder="escriba su numero"><br>
+                <label>Instrucciones especiales</label><br>
+                <textarea name="instrucciones" cols="30" rows="10"></textarea><br>
+        </fieldset><br>
+        <fieldset>
+            <legend>Metodo de pago</legend>
+            <select name="lenguajes">                
+                <option value="efevtivo">Efectivo</option>
+                <option value="tarjeta">Tarjeta</option>
+                <option value="transferencia">Transferencia</option>
+            </select>
+        </fieldset>
+        <button>OK</button>
+    </form>
+</body>
+</html>
